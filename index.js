@@ -15,7 +15,7 @@ const adminroute=require("./routes/adminroute")
 // app
 const app=express();
 
-const port=process.env.PORT ||999;
+const port=process.env.PORT ||1000;
 
 app.set('view engine','ejs');
 mongoose.connect(process.env.MONGODB_URL)
